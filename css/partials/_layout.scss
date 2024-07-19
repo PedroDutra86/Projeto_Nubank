@@ -232,3 +232,30 @@ $container-s: 540px;
 .box{
     align-items: start;
 }
+
+.svg-invite{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+    z-index: -1;
+
+    @include responsive(m){
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    @include responsive(s){
+        transform: translate(-50%, -50%) scale(1.4);
+    }
+    @include responsive(l){
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+}
+
+.bg-invite{
+    height: 100vh;
+
+    overflow: hidden;
+}

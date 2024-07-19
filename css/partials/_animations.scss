@@ -320,3 +320,54 @@ $height-card: 0.64 * $width-card;
     }
 }
 
+.fignu5-ball1 {
+    animation: move-ball1 20s 1s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+}
+
+.fignu5-ball2 {
+    animation: move-ball2 20s .2s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+}
+
+.fignu5-ball3 {
+    animation: move-ball3 20s 2s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+}
+
+.fignu5-ball4 {
+    animation: move-ball4 20s 3s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+}
+
+@keyframes move-ball1 {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    100% {
+        transform: translate(-150px, -100px) rotate(360deg);
+    }
+}
+
+@keyframes move-ball2 {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    100% {
+        transform: translate(-200px, 0) rotate(360deg);
+    }
+}
+
+@keyframes move-ball3 {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    100% {
+        transform: translate(0, 150px) rotate(360deg);
+    }
+}
+
+@keyframes move-ball4 {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    100% {
+        transform: translate(200px, 0) rotate(360deg);
+    }
+}
