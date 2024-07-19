@@ -61,6 +61,7 @@ $container-s: 540px;
 
     @include responsive(s){
         flex-direction: column;
+        margin-left: 0;
 
         padding: 32px 18px;
     }
