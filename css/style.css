@@ -244,20 +244,6 @@ footer {
   border-top: 1px solid #BB71D2;
 }
 
-.final {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-@media screen and (max-width: 960px) {
-  .final {
-    display: flex;
-    justify-content: left;
-    align-items: start;
-    padding: 24px;
-  }
-}
-
 h1 {
   color: #161617;
   font-family: "Sora", sans-serif;
